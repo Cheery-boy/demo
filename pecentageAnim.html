@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+
+            animation-name: slide;
+            animation-duration: 3s;
+
+            animation-timing-function: linear;
+        }
+
+        @keyframes slide{
+            0%{
+
+                margin-left: 0;
+
+            }
+
+            33%{
+                margin-left: 500px;
+
+            }
+
+
+            /* ///////////////////////////// */
+            34%{
+                margin-left: 501px;
+
+
+            }
+
+            66%{
+                margin-left: 500px;
+
+            }
+
+            /* //////////////////////// */
+
+            67%{
+                margin-left: 500px;
+
+
+            }
+
+            100%{
+                margin-left: 1000px;
+
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="box"></div>
+    
+</body>
+</html>
